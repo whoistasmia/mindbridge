@@ -1,0 +1,852 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MindBridge - Learn & Grow</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR START -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            Mind<span>Bridge.</span>
+        </a>
+
+        <!-- Toggle Button -->
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <!-- Courses Dropdown -->
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="coursesDropdown"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Courses
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+
+                        <li>
+                            <a class="dropdown-item" href="web-development.html">
+                                Web Development
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="ui-ux.html">
+                                UI/UX Design
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="python.html">
+                                Python Programming
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="digital-marketing.html">
+                                Digital Marketing
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="graphic-design.html">
+                                Graphic Designing
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="data-science.html">
+                                Data Science
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="teachers.html">Teachers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+
+            </ul>
+
+            <!-- Login and Sign Up -->
+            <div class="nav-buttons">
+
+                <a href="login.html" class="login-btn">
+                    Login
+                </a>
+
+                <a href="signup.html" class="btn signup-btn">
+                    Sign Up
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!-- NAVBAR END -->
+
+
+
+
+<!-- HERO BANNER START -->
+
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6 hero-content">
+
+                <span class="hero-badge">
+                    <i class="bi bi-book-half"></i>
+                    Online Learning Platform
+                </span>
+
+                <h1>
+                    Learn Today,
+                    <span>Lead Tomorrow.</span>
+                </h1>
+
+                <p>
+                    Empowering students with professional skills,
+                    expert guidance and practical learning.
+                </p>
+
+                <a href="web development.html" class="hero-btn">
+                    Explore Courses
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-6 text-center">
+
+                <div class="hero-image">
+
+                    <img src="img2.png"
+                         alt="MindBridge Student Learning">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FEATURES SECTION -->
+        <div class="hero-features">
+
+            <div class="feature-box">
+                <i class="bi bi-mortarboard-fill"></i>
+                <div>
+                    <h5>Expert Teachers</h5>
+                    <p>Learn from the best</p>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <i class="bi bi-laptop-fill"></i>
+                <div>
+                    <h5>Flexible Learning</h5>
+                    <p>Online & Onsite</p>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                    <h5>Certificates</h5>
+                    <p>Boost Your Career</p>
+                </div>
+            </div>
+
+            <div class="feature-box">
+                <i class="bi bi-briefcase-fill"></i>
+                <div>
+                    <h5>Practical Projects</h5>
+                    <p>Build Real Skills</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HERO BANNER END -->
+
+
+
+
+
+
+<!-- COURSES SECTION START -->
+
+<section class="courses-section py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <span class="section-label">OUR COURSES</span>
+            <h2 class="section-title">Explore Our Popular Courses</h2>
+            <p>Learn new skills and build your future with MindBridge.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- COURSE 1 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-img">
+                        <img src="web1.jpg" alt="Web Development">
+                    </div>
+
+                    <div class="course-content">
+
+                        <span class="course-category">Development</span>
+
+                        <h4>Web Development</h4>
+
+                        <p>
+                            Learn HTML, CSS, JavaScript and Bootstrap
+                            to create modern websites.
+                        </p>
+
+                        <div class="course-info">
+                            <span><i class="bi bi-clock"></i> 3 Months</span>
+                            <span><i class="bi bi-bar-chart"></i> Beginner</span>
+                        </div>
+
+                        <button class="view-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#webModal">
+                            View Details
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE 2 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-img">
+                        <img src="ui1.jpg" alt="UI UX Design">
+                    </div>
+
+                    <div class="course-content">
+
+                        <span class="course-category">Design</span>
+
+                        <h4>UI/UX Design</h4>
+
+                        <p>
+                            Learn user interface and user experience
+                            design with practical projects.
+                        </p>
+
+                        <div class="course-info">
+                            <span><i class="bi bi-clock"></i> 2 Months</span>
+                            <span><i class="bi bi-bar-chart"></i> Beginner</span>
+                        </div>
+
+                        <button class="view-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#uiuxModal">
+                            View Details
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE 3 -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="course-card">
+
+                    <div class="course-img">
+                        <img src="py1.jpg" alt="Python Programming">
+                    </div>
+
+                    <div class="course-content">
+
+                        <span class="course-category">Programming</span>
+
+                        <h4>Python Programming</h4>
+
+                        <p>
+                            Understand Python fundamentals, functions,
+                            loops and programming concepts.
+                        </p>
+
+                        <div class="course-info">
+                            <span><i class="bi bi-clock"></i> 3 Months</span>
+                            <span><i class="bi bi-bar-chart"></i> Beginner</span>
+                        </div>
+
+                        <button class="view-btn"
+                            data-bs-toggle="modal"
+                            data-bs-target="#pythonModal">
+                            View Details
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WEB DEVELOPMENT MODAL -->
+
+<div class="modal fade" id="webModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content course-modal">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Web Development</h4>
+
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Course Description</h6>
+
+                <p>
+                    Learn to build responsive and professional
+                    websites using modern web technologies.
+                </p>
+
+                <h6>What You Will Learn</h6>
+
+                <ul>
+                    <li>HTML5 and CSS3</li>
+                    <li>Bootstrap 5</li>
+                    <li>JavaScript Fundamentals</li>
+                    <li>Responsive Website Development</li>
+                    <li>Practical Projects</li>
+                </ul>
+
+                <p><strong>Duration:</strong> 3 Months</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Mode:</strong> Online / Onsite</p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <a href="register.html" class="admission-btn">
+                    Apply for Admission
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- UI UX MODAL -->
+
+<div class="modal fade" id="uiuxModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content course-modal">
+
+            <div class="modal-header">
+                <h4 class="modal-title">UI/UX Design</h4>
+
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Course Description</h6>
+
+                <p>
+                    Learn how to design attractive and
+                    user-friendly websites and applications.
+                </p>
+
+                <h6>What You Will Learn</h6>
+
+                <ul>
+                    <li>UI Design Principles</li>
+                    <li>UX Research</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                    <li>Practical Design Projects</li>
+                </ul>
+
+                <p><strong>Duration:</strong> 2 Months</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Mode:</strong> Online / Onsite</p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <a href="register.html" class="admission-btn">
+                    Apply for Admission
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- PYTHON MODAL -->
+
+<div class="modal fade" id="pythonModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content course-modal">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Python Programming</h4>
+
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <h6>Course Description</h6>
+
+                <p>
+                    Start your programming journey with Python
+                    and learn the fundamentals of coding.
+                </p>
+
+                <h6>What You Will Learn</h6>
+
+                <ul>
+                    <li>Python Basics</li>
+                    <li>Variables and Data Types</li>
+                    <li>Loops and Functions</li>
+                    <li>Lists and Dictionaries</li>
+                    <li>Practical Coding Projects</li>
+                </ul>
+
+                <p><strong>Duration:</strong> 3 Months</p>
+                <p><strong>Level:</strong> Beginner</p>
+                <p><strong>Mode:</strong> Online / Onsite</p>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <a href="register.html" class="admission-btn">
+                    Apply for Admission
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- COURSES SECTION END -->
+
+
+
+
+
+
+
+<!-- WHY CHOOSE MINDBRIDGE START -->
+
+<section class="why-section">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="text-center why-heading">
+
+            <span class="why-label">WHY CHOOSE US</span>
+
+            <h2>Why Choose <span>MindBridge?</span></h2>
+
+            <p>
+                We provide everything you need to learn new skills
+                and build a successful future.
+            </p>
+
+        </div>
+
+
+        <!-- Feature Cards -->
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="why-card">
+
+                    <div class="why-icon">
+                        <i class="bi bi-person-workspace"></i>
+                    </div>
+
+                    <h4>Expert Teachers</h4>
+
+                    <p>
+                        Learn from experienced instructors
+                        who guide you at every step.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="why-card">
+
+                    <div class="why-icon">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+
+                    <h4>Flexible Learning</h4>
+
+                    <p>
+                        Choose online or onsite classes
+                        according to your convenience.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="why-card">
+
+                    <div class="why-icon">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+
+                    <h4>Practical Projects</h4>
+
+                    <p>
+                        Improve your skills through
+                        hands-on projects and activities.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="why-card">
+
+                    <div class="why-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+
+                    <h4>Certificates</h4>
+
+                    <p>
+                        Earn course completion certificates
+                        and showcase your achievements.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY CHOOSE MINDBRIDGE END -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER START -->
+
+<footer class="footer">
+
+    <div class="footer-wave"></div>
+
+    <div class="container">
+
+        <div class="row gy-5 footer-content">
+
+            <!-- BRAND SECTION -->
+            <div class="col-lg-4 col-md-6">
+
+                <h2 class="footer-logo">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    Mind<span>Bridge.</span>
+                </h2>
+
+                <h4 class="footer-tagline">
+                    Learn Today, Lead Tomorrow.
+                </h4>
+
+                <p class="footer-text">
+                    Empowering students with professional skills,
+                    expert guidance and practical learning.
+                </p>
+
+                <!-- SOCIAL ICONS -->
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-2 col-md-6">
+
+                <h5>Quick Links</h5>
+
+                <ul class="footer-links">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="teachers.html">Teachers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- COURSES -->
+            <div class="col-lg-3 col-md-6">
+
+                <h5>Our Courses</h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="web development.html">Web Development</a>
+                    </li>
+
+                    <li>
+                        <a href="ui-ux.html">UI/UX Design</a>
+                    </li>
+
+                    <li>
+                        <a href="python.html">Python Programming</a>
+                    </li>
+
+                    <li>
+                        <a href="digital-marketing.html">Digital Marketing</a>
+                    </li>
+
+                    <li>
+                        <a href="graphic-design.html">Graphic Designing</a>
+                    </li>
+
+                    <li>
+                        <a href="data-science.html">Data Science</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="col-lg-3 col-md-6">
+
+                <h5>Contact Us</h5>
+
+                <ul class="footer-contact">
+
+                    <li>
+                        <i class="bi bi-envelope-fill"></i>
+                        info@mindbridge.com
+                    </li>
+
+                    <li>
+                        <i class="bi bi-telephone-fill"></i>
+                        +92 300 1234567
+                    </li>
+
+                    <li>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        Karachi, Pakistan
+                    </li>
+
+                </ul>
+
+                <a href="contact.html" class="footer-btn">
+                    Get In Touch
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 MindBridge. All Rights Reserved.
+            </p>
+
+            <div class="footer-cap">
+                <span></span>
+                <i class="bi bi-mortarboard-fill"></i>
+                <span></span>
+            </div>
+
+            <p class="bottom-tagline">
+                Learn Today, Lead Tomorrow.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- FOOTER END -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
